@@ -8,5 +8,7 @@
   },
   "author": "JNF",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "pixi.js": "^5.0.0-rc.2"
+  }
 }
