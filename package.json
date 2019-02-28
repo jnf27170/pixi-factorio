@@ -4,11 +4,18 @@
   "description": "New factorio blueprint editor",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html --port 8080",
+    "prebuild": "rimraf dist/*",
+    "build": "parcel build src/index.html --public-url ./",
+    "setupDist": "git worktree add dist gh-pages",
+    "deploy": "cd dist && git add --all && git commit -m \"new version\" && git push origin gh-pages"
   },
   "author": "JNF",
   "license": "ISC",
   "dependencies": {
     "pixi.js": "^5.0.0-rc.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.3.3333"
   }
 }

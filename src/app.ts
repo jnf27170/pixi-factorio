@@ -1,12 +1,13 @@
 
 // https://github.com/parcel-bundler/parcel/issues/289#issuecomment-393106708
-if (module.hot) module.hot.dispose(() => { window.location.reload(); throw new Error('Reloading') })
+//if (module.hot) module.hot.dispose(() => { window.location.reload(); throw new Error('Reloading') })
 
 // tslint:disable:no-import-side-effect
-import './style.styl'
+//import './style.styl'
 
 import * as PIXI from 'pixi.js'
 
+/*
 import { Book } from './factorio-data/book'
 import bpString from './factorio-data/bpString'
 
@@ -28,18 +29,19 @@ import * as Editors from './editors/factory'
 import Entity from './factorio-data/entity'
 import Dialog from './controls/dialog'
 import * as History from './factorio-data/history'
+*/
 
 if (PIXI.utils.isMobile.any) {
     const text = 'This application is not compatible with mobile devices.'
     document.getElementById('loadingMsg').innerHTML = text
-    throw new Error(text)
+    //throw new Error(text)
 }
 
-console.log('\n%cLooking for the source?\nhttps://github.com/Teoxoy/factorio-blueprint-editor\n', 'color: #1f79aa; font-weight: bold')
+console.log("isMobile="+PIXI.utils.isMobile)
 
 const params = window.location.search.slice(1).split('&')
 
-G.renderOnly = params.includes('renderOnly')
+var renderOnly:boolean = params.includes('renderOnly')
 
 let bpSource: string
 let bpIndex = 0
@@ -52,9 +54,6 @@ for (const p of params) {
     }
 }
 
-const { guiBPIndex } = initDatGui()
-initDoorbell()
-
 PIXI.settings.MIPMAP_TEXTURES = PIXI.MIPMAP_MODES.ON
 PIXI.settings.ROUND_PIXELS = true
 PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.LINEAR
@@ -66,46 +65,39 @@ PIXI.GRAPHICS_CURVES.adaptive = true
 // PIXI.settings.PRECISION_VERTEX = PIXI.PRECISION.HIGH
 // PIXI.settings.PRECISION_FRAGMENT = PIXI.PRECISION.HIGH
 
-function getMonitorRefreshRate(iterations = 10) {
-    return new Promise(resolve => {
-        const results: number[] = []
-        let lastTimestamp = 0
-        let i = 0
+//https://pixijs.download/v5.0.0-rc.2/docs/index.html
+//let app:PIXI.Application = new PIXI.Application({ view: document.getElementById('editor') as HTMLCanvasElement })
+const app = new PIXI.Application();
 
-        const fn = (timestamp: number) => {
-            results.push(1000 / (timestamp - lastTimestamp))
-            lastTimestamp = timestamp
-            i++
-            if (i < iterations) requestAnimationFrame(fn)
-            else resolve(Math.ceil(Math.max(...results)))
-        }
-        requestAnimationFrame(fn)
-    })
-}
-getMonitorRefreshRate().then((fps: number) => PIXI.settings.TARGET_FPMS = fps / 1000)
+// Add the view to the DOM
+//document.body.appendChild(app.view);
+document.getElementById("editor").appendChild(app.view)
 
-G.app = new PIXI.Application({ view: document.getElementById('editor') as HTMLCanvasElement })
+// ex, add display objects
+app.stage.addChild(PIXI.Sprite.from('something.png'));
 
 // https://github.com/pixijs/pixi.js/issues/3928
 // G.app.renderer.plugins.interaction.moveWhenInside = true
 // G.app.renderer.plugins.interaction.interactionFrequency = 1
 
-G.app.renderer.resize(window.innerWidth, window.innerHeight)
+//https://developer.mozilla.org/en-US/docs/Web/Events/resize
+app.renderer.resize(window.innerWidth, window.innerHeight)
 window.addEventListener('resize', () => {
-    G.app.renderer.resize(window.innerWidth, window.innerHeight)
-    G.BPC.viewport.setSize(G.app.screen.width, G.app.screen.height)
-    G.BPC.viewport.updateTransform()
+    app.renderer.resize(window.innerWidth, window.innerHeight)
+    //BPC.viewport.setSize(G.app.screen.width, G.app.screen.height)
+    //BPC.viewport.updateTransform()
 }, false)
 
-G.app.renderer.plugins.interaction.on("Mouse over an entity", function(entity) {
+app.renderer.plugins.interaction.on("mouseover", function(entity) {
     console.log("Mouse over an entity. this="+this+" entity="+entity)
     }
 )
-G.app.renderer.plugins.interaction.on("Mouse not over an entity", function(entity) {
+app.renderer.plugins.interaction.on("mouseout", function(entity) {
     console.log("Mouse not over an entity. this="+this+" entity="+entity)
     }
 )
 
+/*
 G.BPC = new BlueprintContainer()
 G.app.stage.addChild(G.BPC)
 
@@ -439,3 +431,4 @@ actions.quickbar8.bind(() => G.quickbarContainer.bindKeyToSlot(7))
 actions.quickbar9.bind(() => G.quickbarContainer.bindKeyToSlot(8))
 actions.quickbar10.bind(() => G.quickbarContainer.bindKeyToSlot(9))
 actions.changeActiveQuickbar.bind(() => G.quickbarContainer.changeActiveQuickbar())
+*/
