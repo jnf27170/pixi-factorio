@@ -54,27 +54,48 @@ for (const p of params) {
     }
 }
 
-PIXI.settings.MIPMAP_TEXTURES = PIXI.MIPMAP_MODES.ON
-PIXI.settings.ROUND_PIXELS = true
-PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.LINEAR
-PIXI.settings.WRAP_MODE = PIXI.WRAP_MODES.REPEAT
-PIXI.settings.RENDER_OPTIONS.antialias = true // for wires
-PIXI.settings.RENDER_OPTIONS.resolution = window.devicePixelRatio
-PIXI.GRAPHICS_CURVES.adaptive = true
+//PIXI.settings.MIPMAP_TEXTURES = PIXI.MIPMAP_MODES.ON
+//PIXI.settings.ROUND_PIXELS = true
+//PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.LINEAR
+//PIXI.settings.WRAP_MODE = PIXI.WRAP_MODES.REPEAT
+//PIXI.settings.RENDER_OPTIONS.antialias = true // for wires
+//PIXI.settings.RENDER_OPTIONS.resolution = window.devicePixelRatio
+//PIXI.GRAPHICS_CURVES.adaptive = true
 // PIXI.settings.PREFER_ENV = 1
 // PIXI.settings.PRECISION_VERTEX = PIXI.PRECISION.HIGH
 // PIXI.settings.PRECISION_FRAGMENT = PIXI.PRECISION.HIGH
 
-//https://pixijs.download/v5.0.0-rc.2/docs/index.html
-//let app:PIXI.Application = new PIXI.Application({ view: document.getElementById('editor') as HTMLCanvasElement })
-const app = new PIXI.Application();
+/*
+const loadingScreen = {
+    el: document.getElementById('loadingScreen'),
+    show() { this.el.classList.add('active') },
+    hide() { this.el.classList.remove('active') }
+}
+loadingScreen.hide()
+*/
 
+
+
+
+
+
+
+//https://pixijs.download/v5.0.0-rc.2/docs/index.html
+let app:PIXI.Application = new PIXI.Application({ view: document.getElementById('editor') as HTMLCanvasElement })
+document.body.appendChild(app.view)
+
+document.getElementById('loadingMsg').innerHTML = "test"
+//document.fonts.ready
+
+
+
+//const app = new PIXI.Application();
 // Add the view to the DOM
 //document.body.appendChild(app.view);
-document.getElementById("editor").appendChild(app.view)
+//document.getElementById("editor").appendChild(app.view)
 
 // ex, add display objects
-app.stage.addChild(PIXI.Sprite.from('something.png'));
+//app.stage.addChild(PIXI.Sprite.from('maneki.jpg'));
 
 // https://github.com/pixijs/pixi.js/issues/3928
 // G.app.renderer.plugins.interaction.moveWhenInside = true
@@ -97,7 +118,9 @@ app.renderer.plugins.interaction.on("mouseout", function(entity) {
     }
 )
 
-var sprite:PIXI.Sprite = PIXI.Sprite.from('./maneki.png')
+var sprite:PIXI.Sprite = PIXI.Sprite.from('./maneki.jpg')
+console.log("sprite="+sprite+typeof(sprite))
+
 sprite.position.set(230,264)
 sprite.anchor.x = 0.5
 sprite.anchor.y = 0.5
@@ -108,7 +131,7 @@ sprite.interactive = true
 // pixi also gives you access to mouse down/up events
 sprite.on('mouseover', onOver)
 sprite.on('mouseout', onOut)
-app.stage.addChild(sprite);
+app.stage.addChild(sprite)
 function onOver (eventData) {
     sprite.scale.x += 0.6
     sprite.scale.y += 0.6
@@ -118,12 +141,22 @@ function onOut (eventData) {
     sprite.scale.y -= 0.6
 }
 // start animating
-animate();
+//animate();
 function animate() {
     requestAnimationFrame(animate);
     // render the root container
     app.renderer.render(app.stage)
 }
+
+document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') app.start()
+    else app.stop()
+    // If the tab is not active then stop the app
+})
+
+document.getElementById('loadingScreen').classList.remove('active')
+
+//app.start()
 
 /*
 G.BPC = new BlueprintContainer()
