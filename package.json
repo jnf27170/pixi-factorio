@@ -1,0 +1,11 @@
+{
+  "name": "factorio-blueprint-editor-2",
+  "version": "0.1.0",
+  "description": "New factorio blueprint editor",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JNF",
+  "license": "ISC"
+}
