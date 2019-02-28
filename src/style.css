@@ -1,0 +1,12 @@
+#loadingScreen
+    position: fixed
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    background-color: #181818
+    cursor: wait
+    &.active
+        z-index: 10
+
+        

@@ -2,7 +2,7 @@
   "name": "factorio-blueprint-editor-2",
   "version": "0.1.0",
   "description": "New factorio blueprint editor",
-  "main": "index.html",
+  "main": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html --port 8080",
     "prebuild": "rimraf dist/*",
