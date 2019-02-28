@@ -97,6 +97,34 @@ app.renderer.plugins.interaction.on("mouseout", function(entity) {
     }
 )
 
+var sprite:PIXI.Sprite = PIXI.Sprite.from('./maneki.png')
+sprite.position.set(230,264)
+sprite.anchor.x = 0.5
+sprite.anchor.y = 0.5
+// set the sprite to be interactive, this is really important
+// otherwise the sprite will not listen to interactions or dispatch any event
+sprite.interactive = true
+// assign a different listen to each event
+// pixi also gives you access to mouse down/up events
+sprite.on('mouseover', onOver)
+sprite.on('mouseout', onOut)
+app.stage.addChild(sprite);
+function onOver (eventData) {
+    sprite.scale.x += 0.6
+    sprite.scale.y += 0.6
+}
+function onOut (eventData) {
+    sprite.scale.x -= 0.6
+    sprite.scale.y -= 0.6
+}
+// start animating
+animate();
+function animate() {
+    requestAnimationFrame(animate);
+    // render the root container
+    app.renderer.render(app.stage)
+}
+
 /*
 G.BPC = new BlueprintContainer()
 G.app.stage.addChild(G.BPC)
