@@ -65,14 +65,7 @@ for (const p of params) {
 // PIXI.settings.PRECISION_VERTEX = PIXI.PRECISION.HIGH
 // PIXI.settings.PRECISION_FRAGMENT = PIXI.PRECISION.HIGH
 
-/*
-const loadingScreen = {
-    el: document.getElementById('loadingScreen'),
-    show() { this.el.classList.add('active') },
-    hide() { this.el.classList.remove('active') }
-}
-loadingScreen.hide()
-*/
+
 
 
 
@@ -82,7 +75,7 @@ loadingScreen.hide()
 
 //https://pixijs.download/v5.0.0-rc.2/docs/index.html
 let app:PIXI.Application = new PIXI.Application({ view: document.getElementById('editor') as HTMLCanvasElement })
-document.body.appendChild(app.view)
+//document.body.appendChild(app.view)
 
 document.getElementById('loadingMsg').innerHTML = "test"
 //document.fonts.ready
@@ -154,7 +147,17 @@ document.addEventListener('visibilitychange', () => {
     // If the tab is not active then stop the app
 })
 
-document.getElementById('loadingScreen').classList.remove('active')
+
+
+const loadingScreen = {
+    el: document.getElementById('loadingScreen'),
+    show() { this.el.classList.add('active') },
+    hide() { this.el.classList.remove('active') }
+}
+loadingScreen.hide()
+
+
+//document.getElementById('loadingScreen').classList.remove('active')
 
 //app.start()
 
