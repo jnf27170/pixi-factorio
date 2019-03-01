@@ -33,11 +33,15 @@ import Entity from './factorio-data/entity'
 import Dialog from './controls/dialog'
 import * as History from './factorio-data/history'
 */
+
+// https://www.w3schools.com/jsref/prop_style_display.asp
+document.getElementById('loadingScreen').style.display = "none"
+
 var app = new PIXI.Application({width:800, height:600, backgroundColor : 0x1099bb});
 document.body.appendChild(app.view);
 
 // create a new Sprite from an image path
-var bunny = PIXI.Sprite.from('maneki.jpg')
+let bunny:PIXI.Sprite = PIXI.Sprite.from('./maneki.jpg');
 
 // center the sprite's anchor point
 bunny.anchor.set(0.5);
