@@ -4,11 +4,11 @@
 // tslint:disable:no-import-side-effect
 //import './style.styl'
 
-import * as PIXI from "pixi.js";
+import * as PIXI from "pixi.js"
 
 //import './style.css'
 //const s = require('./style.css')
-import BUNNY from 'bunny.png'
+//import BunnyPNG from 'bunny.png'
 
 /*
 import { Book } from './factorio-data/book'
@@ -42,7 +42,7 @@ PIXI.settings.RENDER_OPTIONS.antialias = true // for wires
 PIXI.settings.RENDER_OPTIONS.resolution = window.devicePixelRatio
 PIXI.GRAPHICS_CURVES.adaptive = true
 */
-
+console.log("Start at "+new Date());
 const app = new PIXI.Application({ view: document.getElementById('editor') as HTMLCanvasElement})
 //let app:PIXI.Application = new PIXI.Application({ width: 400, height: 500, forceCanvas: true });
 //var app = new PIXI.Application({width:800, height:600, backgroundColor : 0x1099bb});
@@ -52,7 +52,7 @@ const app = new PIXI.Application({ view: document.getElementById('editor') as HT
 document.getElementById("loadingMsg").innerHTML = "test"
 
 if (app.renderer.type == PIXI.RENDERER_TYPE.WEBGL) {
-  console.log("Using WebGL");
+  console.log("Using WebGL"+app.renderer.resolution);
 } else {
   console.log("Using Canvas");
 }
@@ -62,9 +62,27 @@ var app = new PIXI.Application({ width:400, height:300,forceCanvas: true});
 document.body.appendChild(app.view);
 */
 
+
+/*
+fetch(src)
+        .then(response => response.blob())
+        .then(blob => {
+            if (!!window.createImageBitmap) return createImageBitmap(blob)
+
+            // Polyfill
+            return new Promise(resolve => {
+                const img = new Image()
+                img.onload = () => resolve(img)
+                img.src = URL.createObjectURL(blob)
+            })
+        })
+*/
+
+
 //const image = require('maneki.jpg')
 // create a new Sprite from an image path
-var bunny = PIXI.Sprite.from(BUNNY)
+var texture = PIXI.Texture.from('bunny.png')
+var bunny = PIXI.Sprite.from(texture)
 console.log(bunny.isSprite+" "+bunny.width+"x"+bunny.height)
 
 // center the sprite's anchor point
