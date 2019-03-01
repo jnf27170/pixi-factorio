@@ -1,5 +1,5 @@
 // https://github.com/parcel-bundler/parcel/issues/289#issuecomment-393106708
-if (module.hot) module.hot.dispose(() => { window.location.reload(); throw new Error('Reloading') })
+//if (module.hot) module.hot.dispose(() => { window.location.reload(); throw new Error('Reloading') })
 
 // tslint:disable:no-import-side-effect
 //import './style.styl'
@@ -8,6 +8,7 @@ import * as PIXI from "pixi.js";
 
 //import './style.css'
 //const s = require('./style.css')
+import BUNNY from 'bunny.png'
 
 /*
 import { Book } from './factorio-data/book'
@@ -63,7 +64,7 @@ document.body.appendChild(app.view);
 
 //const image = require('maneki.jpg')
 // create a new Sprite from an image path
-var bunny = PIXI.Sprite.from("./maneki.jpg")
+var bunny = PIXI.Sprite.from(BUNNY)
 console.log(bunny.isSprite+" "+bunny.width+"x"+bunny.height)
 
 // center the sprite's anchor point
