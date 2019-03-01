@@ -8,7 +8,7 @@
 import * as PIXI from 'pixi.js'
 
 //import './style.css'
-const s = require('./style.css')
+//const s = require('./style.css')
 
 /*
 import { Book } from './factorio-data/book'
@@ -37,28 +37,33 @@ import * as History from './factorio-data/history'
 // https://www.w3schools.com/jsref/prop_style_display.asp
 document.getElementById('loadingScreen').style.display = "none"
 
-var app = new PIXI.Application({width:800, height:600, backgroundColor : 0x1099bb});
-document.body.appendChild(app.view);
+let app:PIXI.Application = new PIXI.Application({ view: document.getElementById('editor') as HTMLCanvasElement, forceCanvas: true})
+//var app = new PIXI.Application({width:800, height:600, backgroundColor : 0x1099bb});
+//document.body.appendChild(app.view);
 
-// create a new Sprite from an image path
-let bunny:PIXI.Sprite = PIXI.Sprite.from('./maneki.jpg');
 
-// center the sprite's anchor point
-bunny.anchor.set(0.5);
+PIXI.Loader.shared.add('bunny', 'bunny2.png').load((loader, resources) => {
+    // This creates a texture from a 'bunny.png' image
+    const bunny = new PIXI.Sprite(resources.bunny.texture);
 
-// move the sprite to the center of the screen
-bunny.x = app.screen.width / 2;
-bunny.y = app.screen.height / 2;
+    // Setup the position of the bunny
+    bunny.x = app.renderer.width / 2;
+    bunny.y = app.renderer.height / 2;
 
-app.stage.addChild(bunny);
+    // Rotate around the center
+    bunny.anchor.x = 0.5;
+    bunny.anchor.y = 0.5;
 
-// Listen for animate update
-app.ticker.add(function(delta) {
-    // just for fun, let's rotate mr rabbit a little
-    // delta is 1 if running at 100% performance
-    // creates frame-independent transformation
-    bunny.rotation += 0.1 * delta;
+    // Add the bunny to the scene we are building
+    app.stage.addChild(bunny);
+
+    // Listen for frame updates
+    app.ticker.add(() => {
+         // each frame we spin the bunny around a bit
+        bunny.rotation += 0.01;
+    });
 });
+
 
 /*
 if (PIXI.utils.isMobile.any) {
@@ -176,20 +181,6 @@ document.addEventListener('visibilitychange', () => {
     else app.stop()
     // If the tab is not active then stop the app
 })
-
-
-
-const loadingScreen = {
-    el: document.getElementById('loadingScreen'),
-    show() { this.el.classList.add('active') },
-    hide() { this.el.classList.remove('active') }
-}
-loadingScreen.hide()
-
-
-//document.getElementById('loadingScreen').classList.remove('active')
-
-//app.start()
 
 /*
 G.BPC = new BlueprintContainer()
