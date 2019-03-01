@@ -1,11 +1,10 @@
-
 // https://github.com/parcel-bundler/parcel/issues/289#issuecomment-393106708
-//if (module.hot) module.hot.dispose(() => { window.location.reload(); throw new Error('Reloading') })
+if (module.hot) module.hot.dispose(() => { window.location.reload(); throw new Error('Reloading') })
 
 // tslint:disable:no-import-side-effect
 //import './style.styl'
 
-import * as PIXI from 'pixi.js'
+import * as PIXI from "pixi.js";
 
 //import './style.css'
 //const s = require('./style.css')
@@ -32,24 +31,40 @@ import * as Editors from './editors/factory'
 import Entity from './factorio-data/entity'
 import Dialog from './controls/dialog'
 import * as History from './factorio-data/history'
+
+
+PIXI.settings.MIPMAP_TEXTURES = PIXI.MIPMAP_MODES.ON
+PIXI.settings.ROUND_PIXELS = true
+PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.LINEAR
+PIXI.settings.WRAP_MODE = PIXI.WRAP_MODES.REPEAT
+PIXI.settings.RENDER_OPTIONS.antialias = true // for wires
+PIXI.settings.RENDER_OPTIONS.resolution = window.devicePixelRatio
+PIXI.GRAPHICS_CURVES.adaptive = true
 */
 
-// https://www.w3schools.com/jsref/prop_style_display.asp
-document.getElementById('loadingScreen').style.display = "none"
-
-//let app:PIXI.Application = new PIXI.Application({ view: document.getElementById('editor') as HTMLCanvasElement, forceCanvas: true})
-let app:PIXI.Application = new PIXI.Application({ width:400, height:500})
+const app = new PIXI.Application({ view: document.getElementById('editor') as HTMLCanvasElement})
+//let app:PIXI.Application = new PIXI.Application({ width: 400, height: 500, forceCanvas: true });
 //var app = new PIXI.Application({width:800, height:600, backgroundColor : 0x1099bb});
-document.body.appendChild(app.view);
-//document.getElementById('editor').appendChild(app.view);
+//document.body.appendChild(app.view)
+//document.getElementById("editor").appendChild(app.view)
 
+document.getElementById("loadingMsg").innerHTML = "test"
+
+if (app.renderer.type == PIXI.RENDERER_TYPE.WEBGL) {
+  console.log("Using WebGL");
+} else {
+  console.log("Using Canvas");
+}
 
 /*
 var app = new PIXI.Application({ width:400, height:300,forceCanvas: true});
 document.body.appendChild(app.view);
+*/
 
+//const image = require('maneki.jpg')
 // create a new Sprite from an image path
-var bunny = PIXI.Sprite.from('bunny.png')
+var bunny = PIXI.Sprite.from("./maneki.jpg")
+console.log(bunny.isSprite+" "+bunny.width+"x"+bunny.height)
 
 // center the sprite's anchor point
 bunny.anchor.set(0.5);
@@ -62,14 +77,13 @@ app.stage.addChild(bunny);
 
 // Listen for animate update
 app.ticker.add(function(delta) {
-    // just for fun, let's rotate mr rabbit a little
-    // delta is 1 if running at 100% performance
-    // creates frame-independent transformation
-    bunny.rotation += 0.1 * delta;
+  // just for fun, let's rotate mr rabbit a little
+  // delta is 1 if running at 100% performance
+  // creates frame-independent transformation
+  bunny.rotation += 0.1 * delta;
 });
-*/
 
-
+/*
 PIXI.Loader.shared.add('bunny', 'bunny2.png').load((loader, resources) => {
     // This creates a texture from a 'bunny.png' image
     const bunnyS = new PIXI.Sprite(resources.bunny.texture);
@@ -91,6 +105,18 @@ PIXI.Loader.shared.add('bunny', 'bunny2.png').load((loader, resources) => {
          bunnyS.rotation += 0.01;
     });
 });
+*/
+
+// https://www.w3schools.com/jsref/prop_style_display.asp
+document.getElementById("loadingScreen").style.display = "none";
+
+// If the tab is not active then stop the app
+document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') app.start()
+    else app.stop()
+    // If the tab is not active then stop the app
+})
+
 
 
 /*
@@ -210,7 +236,6 @@ document.addEventListener('visibilitychange', () => {
     // If the tab is not active then stop the app
 })
 */
-
 
 /*
 G.BPC = new BlueprintContainer()
