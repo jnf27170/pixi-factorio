@@ -10,6 +10,7 @@ import * as PIXI from "pixi.js"
 //const s = require('./style.css')
 /// <reference path='./index.d.ts' />
 import BunnyPNG from './bunny.png'
+import catPNG from './cat.png'
 //import Bunny2PNG from './bunny2.png'
 
 /*
@@ -45,47 +46,38 @@ PIXI.settings.RENDER_OPTIONS.resolution = window.devicePixelRatio
 PIXI.GRAPHICS_CURVES.adaptive = true
 */
 
-//let app = new PIXI.Application({ view: document.getElementById('editor') as HTMLCanvasElement});
-let app = new PIXI.Application({ width: 400, height: 500, forceCanvas: true })
-//var app = new PIXI.Application({width:800, height:600, backgroundColor : 0x1099bb});
-//document.body.appendChild(app.view)
-document.getElementById('editor').appendChild(app.view)
-//document.getElementById("editor").appendChild(app.view)
 
+
+const html_div_message: HTMLElement | null = document.getElementById('message');
+const html_canvas_editor: HTMLElement | null = document.getElementById('editor');
+if (html_div_message == null) {throw new Error("div message missing");}
+if (html_canvas_editor == null) {throw new Error("canvas editor missing");}
+
+if (PIXI.utils.isMobile.any) {
+    const text = 'This application is not compatible with mobile devices.'
+    html_div_message.innerHTML = text
+    //throw new Error(text)
+}
+html_div_message.innerHTML += "isMobile="+JSON.stringify(PIXI.utils.isMobile.any)
+
+const app = new PIXI.Application({
+    width:800, height:600,
+    view: html_canvas_editor as HTMLCanvasElement,
+    backgroundColor : 0x1099bb,
+    forceCanvas: true
+});
 console.log("Start at "+new Date().toLocaleTimeString("fr-FR"));
-//document.getElementById("loadingMsg").innerHTML = "test"
+html_div_message.innerHTML += " test"
 
 if (app.renderer.type == PIXI.RENDERER_TYPE.WEBGL) {
   console.log("Using WebGL "+JSON.stringify(app.renderer.screen));
+  html_div_message.innerHTML += " Using WebGL "
 } else {
   console.log("Using Canvas");
+  html_div_message.innerHTML += " Using Canvas "
 }
 
-/*
-var app = new PIXI.Application({ width:400, height:300,forceCanvas: true});
-document.body.appendChild(app.view);
-*/
-
-
-/*
-fetch(src)
-        .then(response => response.blob())
-        .then(blob => {
-            if (!!window.createImageBitmap) return createImageBitmap(blob)
-
-            // Polyfill
-            return new Promise(resolve => {
-                const img = new Image()
-                img.onload = () => resolve(img)
-                img.src = URL.createObjectURL(blob)
-            })
-        })
-*/
-
-
-//const image = require('maneki.jpg')
 // create a new Sprite from an image path
-
 /*
 import fs from "fs"
 fs.readFile('./img/bunny.png', function (err, data) {
@@ -102,40 +94,63 @@ fs.readFile('./img/bunny.png', function (err, data) {
 //const fileSizeInBytes = stats.size
 //console.log(fileSizeInBytes)
 
+let loader = PIXI.Loader.shared
+let sprites:any = {};
+loader.add('cat', catPNG)
+//loader.add('iconSpritesheetJSON', './img/iconSpritesheet.json')
+//loader.add('scoreFont', 'assets/score.fnt');
+//loader.add("bunny2.png")
+loader.load(() => {
+    sprites.Scat = new PIXI.Sprite(loader.resources.cat.texture);
+    //sprites.SiconSpritesheetJSON = PIXI.TilingSprite.from(resources.iconSpritesheet.texture);
+    //sprites.scoreFont = new PIXI.TilingSprite(resources.scoreFont.texture);
+})
+loader.on("error",()=> {// called once per errored file
+    html_div_message.innerHTML += " ERROR "
+})
+loader.on("load",()=> {// called once per loaded file
+    html_div_message.innerHTML += loader.progress+" "
+})
+loader.on("complete",()=> {// called once when the queued resources all load
+    html_div_message.innerHTML += " FIN"
+    app.stage.addChild(sprites.Scat)
+})
+
 /*
-PIXI.loader
-  .add("bunny.png")
-  .load(setup);
-
 function setup() {
-    let sprite2 = new PIXI.Sprite(PIXI.loader.resources["bunny.png"].texture);
-
+    let sprite2 = new PIXI.Sprite(PIXI.loader.resources["bunny2.png"].texture);
+    console.log("bunny2_sprite_bounds:"+JSON.stringify(sprite2.getBounds()))
+    app.stage.addChild(sprite2);
 }
 */
 
 var texture = PIXI.Texture.from(BunnyPNG)
 //var texture = PIXI.Texture.from('./bunny.png')
 //let texture = PIXI.utils.TextureCache[BunnyPNG];
-var bunny = PIXI.Sprite.from(texture)
+var bunny:PIXI.Sprite = PIXI.Sprite.from(texture)
 
 // center the sprite's anchor point
 bunny.anchor.set(0.5);
 
 // move the sprite to the center of the screen
-//bunny.x = app.screen.width / 2;
-//bunny.y = app.screen.height / 2;
-bunny.x = 150
-bunny.y = 150
-console.log(JSON.stringify(bunny.getBounds())+" "+JSON.stringify(texture.height))
+bunny.x = app.screen.width / 2;
+bunny.y = app.screen.height / 2;
+bunny.interactive = true
+bunny.buttonMode = true
+console.log("bunny_sprite_bounds:"+JSON.stringify(bunny.getBounds())+" bunny_texture_heigth:"+JSON.stringify(texture.height))
 app.stage.addChild(bunny);
-
+bunny.on("click",toto)
+function toto() {
+    html_div_message.innerHTML += "clic ! "
+}
 
 var recta = new PIXI.Graphics()
 recta.beginFill(0xFFFF00)
 recta.lineStyle(5,0xFF0000)
 recta.drawRect(0,0,100,100)
+recta.y = 300
 app.stage.addChild(recta)
-console.log(JSON.stringify(recta.getBounds())+" "+JSON.stringify(app.stage.getBounds()))
+console.log("recta_graphics_bounds:"+JSON.stringify(recta.getBounds())+" "+JSON.stringify(app.stage.getBounds()))
 
 // Listen for animate update
 app.ticker.add(function(delta) {
@@ -170,7 +185,7 @@ PIXI.Loader.shared.add('bunny', 'bunny2.png').load((loader, resources) => {
 */
 
 // https://www.w3schools.com/jsref/prop_style_display.asp
-document.getElementById("loadingScreen").style.display = "none";
+//html_div_message.style.display = "none";
 
 // If the tab is not active then stop the app
 document.addEventListener('visibilitychange', () => {
@@ -182,13 +197,6 @@ document.addEventListener('visibilitychange', () => {
 
 
 /*
-if (PIXI.utils.isMobile.any) {
-    const text = 'This application is not compatible with mobile devices.'
-    document.getElementById('loadingMsg').innerHTML = text
-    //throw new Error(text)
-}
-
-console.log("isMobile="+PIXI.utils.isMobile)
 
 const params = window.location.search.slice(1).split('&')
 

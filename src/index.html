@@ -7,30 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>BlueprintEditor</title>
     <link rel="icon" href="favicon.png" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Cookie"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"/>
     <style>
       body {
         margin: 0;
         padding: 0;
-        background-color: #91c1ff;
+        background-color: #ffffff;
       }
     </style>
   </head>
-  <!--
-  <body oncontextmenu="return false;">
--->
+  <!--<body oncontextmenu="return false;">-->
   <body>
-    <div id="loadingScreen" class="active">
-      <h1 id="loadingMsg">Loading...</h1>
-    </div>
-    <div id="button-background"></div>
+    <div id="message">Loading...</div>
     <canvas id="editor" tabindex="1"></canvas>
     <script src="app.ts"></script>
   </body>
