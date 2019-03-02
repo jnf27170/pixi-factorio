@@ -8,7 +8,9 @@ import * as PIXI from "pixi.js"
 
 //import './style.css'
 //const s = require('./style.css')
-//import BunnyPNG from 'bunny.png'
+/// <reference path='./index.d.ts' />
+import BunnyPNG from './bunny.png'
+//import Bunny2PNG from './bunny2.png'
 
 /*
 import { Book } from './factorio-data/book'
@@ -42,17 +44,19 @@ PIXI.settings.RENDER_OPTIONS.antialias = true // for wires
 PIXI.settings.RENDER_OPTIONS.resolution = window.devicePixelRatio
 PIXI.GRAPHICS_CURVES.adaptive = true
 */
-console.log("Start at "+new Date());
-const app = new PIXI.Application({ view: document.getElementById('editor') as HTMLCanvasElement})
-//let app:PIXI.Application = new PIXI.Application({ width: 400, height: 500, forceCanvas: true });
+
+//let app = new PIXI.Application({ view: document.getElementById('editor') as HTMLCanvasElement});
+let app = new PIXI.Application({ width: 400, height: 500, forceCanvas: true })
 //var app = new PIXI.Application({width:800, height:600, backgroundColor : 0x1099bb});
 //document.body.appendChild(app.view)
+document.getElementById('editor').appendChild(app.view)
 //document.getElementById("editor").appendChild(app.view)
 
-document.getElementById("loadingMsg").innerHTML = "test"
+console.log("Start at "+new Date().toLocaleTimeString("fr-FR"));
+//document.getElementById("loadingMsg").innerHTML = "test"
 
 if (app.renderer.type == PIXI.RENDERER_TYPE.WEBGL) {
-  console.log("Using WebGL"+app.renderer.resolution);
+  console.log("Using WebGL "+JSON.stringify(app.renderer.screen));
 } else {
   console.log("Using Canvas");
 }
@@ -81,18 +85,57 @@ fetch(src)
 
 //const image = require('maneki.jpg')
 // create a new Sprite from an image path
-var texture = PIXI.Texture.from('bunny.png')
+
+/*
+import fs from "fs"
+fs.readFile('./img/bunny.png', function (err, data) {
+    if (err) {
+        return console.error(err);
+    }
+    console.log("Asynchronous read: " + data.toString());
+});
+*/
+
+
+//const fs = require("fs"); //Load the filesystem module
+//const stats = fs.statSync("./img/bunny.png")
+//const fileSizeInBytes = stats.size
+//console.log(fileSizeInBytes)
+
+/*
+PIXI.loader
+  .add("bunny.png")
+  .load(setup);
+
+function setup() {
+    let sprite2 = new PIXI.Sprite(PIXI.loader.resources["bunny.png"].texture);
+
+}
+*/
+
+var texture = PIXI.Texture.from(BunnyPNG)
+//var texture = PIXI.Texture.from('./bunny.png')
+//let texture = PIXI.utils.TextureCache[BunnyPNG];
 var bunny = PIXI.Sprite.from(texture)
-console.log(bunny.isSprite+" "+bunny.width+"x"+bunny.height)
 
 // center the sprite's anchor point
 bunny.anchor.set(0.5);
 
 // move the sprite to the center of the screen
-bunny.x = app.screen.width / 2;
-bunny.y = app.screen.height / 2;
-
+//bunny.x = app.screen.width / 2;
+//bunny.y = app.screen.height / 2;
+bunny.x = 150
+bunny.y = 150
+console.log(JSON.stringify(bunny.getBounds())+" "+JSON.stringify(texture.height))
 app.stage.addChild(bunny);
+
+
+var recta = new PIXI.Graphics()
+recta.beginFill(0xFFFF00)
+recta.lineStyle(5,0xFF0000)
+recta.drawRect(0,0,100,100)
+app.stage.addChild(recta)
+console.log(JSON.stringify(recta.getBounds())+" "+JSON.stringify(app.stage.getBounds()))
 
 // Listen for animate update
 app.ticker.add(function(delta) {
