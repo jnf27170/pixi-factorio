@@ -1,0 +1,89 @@
+{
+  "frames": {
+    "graphics/cursor-boxes.png": {
+      "frame": { "x": 1, "y": 1, "w": 320, "h": 320 },
+      "sourceSize": { "w": 320, "h": 320 }
+    },
+    "graphics/side-menu-icons.png": {
+      "frame": { "x": 1, "y": 323, "w": 128, "h": 512 },
+      "sourceSize": { "w": 128, "h": 512 }
+    },
+    "graphics/cursor-boxes-32x32.png": {
+      "frame": { "x": 323, "y": 1, "w": 320, "h": 64 },
+      "sourceSize": { "w": 320, "h": 64 }
+    },
+    "graphics/arrows/underground-lines.png": {
+      "frame": { "x": 323, "y": 67, "w": 128, "h": 64 },
+      "sourceSize": { "w": 128, "h": 64 }
+    },
+    "graphics/electricity-icon-unplugged.png": {
+      "frame": { "x": 453, "y": 67, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 }
+    },
+    "graphics/arrows/indication-arrow.png": {
+      "frame": { "x": 519, "y": 67, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 }
+    },
+    "graphics/export.png": {
+      "frame": { "x": 323, "y": 133, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 }
+    },
+    "graphics/import.png": {
+      "frame": { "x": 389, "y": 133, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 }
+    },
+    "graphics/enter-icon.png": {
+      "frame": { "x": 455, "y": 133, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 }
+    },
+    "graphics/remove-icon.png": {
+      "frame": { "x": 521, "y": 133, "w": 64, "h": 64 },
+      "sourceSize": { "w": 64, "h": 64 }
+    },
+    "graphics/entity-info-dark-background.png": {
+      "frame": { "x": 585, "y": 67, "w": 53, "h": 53 },
+      "sourceSize": { "w": 53, "h": 53 }
+    },
+    "graphics/arrows/fluid-indication-arrow.png": {
+      "frame": { "x": 587, "y": 133, "w": 48, "h": 48 },
+      "sourceSize": { "w": 48, "h": 48 }
+    },
+    "graphics/arrows/fluid-indication-arrow-both-ways.png": {
+      "frame": { "x": 323, "y": 199, "w": 48, "h": 48 },
+      "sourceSize": { "w": 48, "h": 48 }
+    },
+    "graphics/clock-icon.png": {
+      "frame": { "x": 373, "y": 199, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 }
+    },
+    "graphics/clone-icon.png": {
+      "frame": { "x": 407, "y": 199, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 }
+    },
+    "graphics/slot-icon-module.png": {
+      "frame": { "x": 441, "y": 199, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 }
+    },
+    "graphics/slot-icon-blueprint.png": {
+      "frame": { "x": 475, "y": 199, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 }
+    },
+    "graphics/rename-normal.png": {
+      "frame": { "x": 509, "y": 199, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 }
+    },
+    "graphics/too-far.png": {
+      "frame": { "x": 543, "y": 199, "w": 32, "h": 32 },
+      "sourceSize": { "w": 32, "h": 32 }
+    },
+    "graphics/circuit-network-panel.png": {
+      "frame": { "x": 577, "y": 199, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 }
+    },
+    "graphics/logistic-network-panel.png": {
+      "frame": { "x": 595, "y": 199, "w": 16, "h": 16 },
+      "sourceSize": { "w": 16, "h": 16 }
+    }
+  },
+  "meta": { "image": "./utilitySpritesheet.png" }
+}

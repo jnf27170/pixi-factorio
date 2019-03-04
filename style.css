@@ -1,0 +1,47 @@
+/*Je suis un commentaire qui commente le code et qui ne fait rien*/
+body{
+    /*Couleur de fond : */
+    background-color: green;
+}
+p{
+    /*Couleur du texte : */
+    color: red;
+    /*Taille du texte en px (pixel) : */
+    font-size: 20px;
+}
+button{
+    /*Contour : */
+    outline: none;
+    /*Bordure*/
+    border: none;
+    /*Couleur de fond : */
+    background-color: black;
+    /*Couleur de texte : */
+    color: white;
+}
+/*Hover veut dire au survol d'un bouton*/
+button:hover{
+    /*Couleur de fond : */
+    background-color: green;
+}
+/*Selection veut dire à la selection du texte*/
+*::selection{
+    /*Couleur de fond : */
+    background-color: black;
+    /*Couleur du texte : */
+    color: white;
+}
+#loadingScreen{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #181818;
+    cursor: wait;
+    
+    
+}
+.active{
+    z-index: 10;
+}
