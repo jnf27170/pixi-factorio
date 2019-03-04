@@ -1,0 +1,277 @@
+{
+  "frames": {
+    "graphics/entity/tree/04/hr-tree-04-a-trunk.png": {
+      "frame": { "x": 1, "y": 1, "w": 2544, "h": 340 },
+      "sourceSize": { "w": 2544, "h": 340 }
+    },
+    "graphics/entity/tree/09/hr-tree-09-a-trunk.png": {
+      "frame": { "x": 1, "y": 343, "w": 2435, "h": 340 },
+      "sourceSize": { "w": 2435, "h": 340 }
+    },
+    "graphics/entity/tree/02/hr-tree-02-a-trunk.png": {
+      "frame": { "x": 1, "y": 685, "w": 2240, "h": 340 },
+      "sourceSize": { "w": 2240, "h": 340 }
+    },
+    "graphics/entity/tree/03/hr-tree-03-a-trunk.png": {
+      "frame": { "x": 1, "y": 1027, "w": 2435, "h": 312 },
+      "sourceSize": { "w": 2435, "h": 312 }
+    },
+    "graphics/entity/tree/05/hr-tree-05-a-trunk.png": {
+      "frame": { "x": 1, "y": 1341, "w": 2095, "h": 284 },
+      "sourceSize": { "w": 2095, "h": 284 }
+    },
+    "graphics/entity/tree/08/hr-tree-08-a-trunk.png": {
+      "frame": { "x": 1, "y": 1627, "w": 1995, "h": 279 },
+      "sourceSize": { "w": 1995, "h": 279 }
+    },
+    "graphics/entity/tree/01/hr-tree-01-a-trunk.png": {
+      "frame": { "x": 1, "y": 1908, "w": 1770, "h": 298 },
+      "sourceSize": { "w": 1770, "h": 298 }
+    },
+    "graphics/entity/tree/06/hr-tree-06-a-trunk.png": {
+      "frame": { "x": 1, "y": 2208, "w": 1780, "h": 289 },
+      "sourceSize": { "w": 1780, "h": 289 }
+    },
+    "graphics/entity/tree/07/hr-tree-07-a-trunk.png": {
+      "frame": { "x": 2547, "y": 1, "w": 1810, "h": 244 },
+      "sourceSize": { "w": 1810, "h": 244 }
+    },
+    "graphics/entity/tree/dry-hairy-tree/hr-dry-hairy-tree-05.png": {
+      "frame": { "x": 2547, "y": 247, "w": 459, "h": 390 },
+      "sourceSize": { "w": 459, "h": 390 }
+    },
+    "graphics/entity/tree/05/hr-tree-05-a-leaves.png": {
+      "frame": { "x": 3008, "y": 247, "w": 699, "h": 236 },
+      "sourceSize": { "w": 699, "h": 236 }
+    },
+    "graphics/entity/tree/dry-hairy-tree/hr-dry-hairy-tree-00.png": {
+      "frame": { "x": 2547, "y": 639, "w": 444, "h": 357 },
+      "sourceSize": { "w": 444, "h": 357 }
+    },
+    "graphics/entity/tree/dry-hairy-tree/hr-dry-hairy-tree-02.png": {
+      "frame": { "x": 2993, "y": 639, "w": 493, "h": 309 },
+      "sourceSize": { "w": 493, "h": 309 }
+    },
+    "graphics/entity/tree/04/hr-tree-04-a-leaves.png": {
+      "frame": { "x": 3488, "y": 639, "w": 591, "h": 254 },
+      "sourceSize": { "w": 591, "h": 254 }
+    },
+    "graphics/entity/tree/09/hr-tree-09-a-leaves.png": {
+      "frame": { "x": 2547, "y": 998, "w": 732, "h": 204 },
+      "sourceSize": { "w": 732, "h": 204 }
+    },
+    "graphics/entity/tree/02/hr-tree-02-a-leaves.png": {
+      "frame": { "x": 2547, "y": 1204, "w": 570, "h": 261 },
+      "sourceSize": { "w": 570, "h": 261 }
+    },
+    "graphics/entity/tree/dry-hairy-tree/hr-dry-hairy-tree-01.png": {
+      "frame": { "x": 2547, "y": 1467, "w": 506, "h": 293 },
+      "sourceSize": { "w": 506, "h": 293 }
+    },
+    "graphics/entity/tree/dry-hairy-tree/hr-dry-hairy-tree-03.png": {
+      "frame": { "x": 2547, "y": 1762, "w": 484, "h": 303 },
+      "sourceSize": { "w": 484, "h": 303 }
+    },
+    "graphics/entity/tree/01/hr-tree-01-a-leaves.png": {
+      "frame": { "x": 3709, "y": 247, "w": 612, "h": 231 },
+      "sourceSize": { "w": 612, "h": 231 }
+    },
+    "graphics/entity/tree/03/hr-tree-03-a-leaves.png": {
+      "frame": { "x": 3281, "y": 998, "w": 711, "h": 195 },
+      "sourceSize": { "w": 711, "h": 195 }
+    },
+    "graphics/entity/tree/dry-hairy-tree/hr-dry-hairy-tree-04.png": {
+      "frame": { "x": 3055, "y": 1467, "w": 457, "h": 287 },
+      "sourceSize": { "w": 457, "h": 287 }
+    },
+    "graphics/entity/tree/dead-dry-hairy-tree/hr-dead-dry-hairy-tree-06.png": {
+      "frame": { "x": 3033, "y": 1762, "w": 424, "h": 294 },
+      "sourceSize": { "w": 424, "h": 294 }
+    },
+    "graphics/entity/tree/dead-dry-hairy-tree/hr-dead-dry-hairy-tree-04.png": {
+      "frame": { "x": 2547, "y": 2067, "w": 386, "h": 316 },
+      "sourceSize": { "w": 386, "h": 316 }
+    },
+    "graphics/entity/tree/dead-dry-hairy-tree/hr-dead-dry-hairy-tree-05.png": {
+      "frame": { "x": 3514, "y": 1467, "w": 425, "h": 285 },
+      "sourceSize": { "w": 425, "h": 285 }
+    },
+    "graphics/entity/tree/dry-hairy-tree/hr-dry-hairy-tree-06.png": {
+      "frame": { "x": 3459, "y": 1762, "w": 432, "h": 272 },
+      "sourceSize": { "w": 432, "h": 272 }
+    },
+    "graphics/entity/tree/dry-hairy-tree/hr-dry-hairy-tree-08.png": {
+      "frame": { "x": 3893, "y": 1762, "w": 429, "h": 272 },
+      "sourceSize": { "w": 429, "h": 272 }
+    },
+    "graphics/entity/tree/dry-hairy-tree/hr-dry-hairy-tree-07.png": {
+      "frame": { "x": 2935, "y": 2067, "w": 368, "h": 308 },
+      "sourceSize": { "w": 368, "h": 308 }
+    },
+    "graphics/entity/tree/dead-dry-hairy-tree/hr-dead-dry-hairy-tree-01.png": {
+      "frame": { "x": 3305, "y": 2067, "w": 371, "h": 301 },
+      "sourceSize": { "w": 371, "h": 301 }
+    },
+    "graphics/entity/tree/dead-dry-hairy-tree/hr-dead-dry-hairy-tree-03.png": {
+      "frame": { "x": 1, "y": 2499, "w": 358, "h": 310 },
+      "sourceSize": { "w": 358, "h": 310 }
+    },
+    "graphics/entity/tree/dead-tree-desert/hr-dead-tree-desert-00.png": {
+      "frame": { "x": 3119, "y": 1204, "w": 398, "h": 250 },
+      "sourceSize": { "w": 398, "h": 250 }
+    },
+    "graphics/entity/tree/dead-tree-desert/hr-dead-tree-desert-02.png": {
+      "frame": { "x": 3519, "y": 1204, "w": 398, "h": 250 },
+      "sourceSize": { "w": 398, "h": 250 }
+    },
+    "graphics/entity/tree/dead-tree-desert/hr-dead-tree-desert-05.png": {
+      "frame": { "x": 3919, "y": 1204, "w": 398, "h": 250 },
+      "sourceSize": { "w": 398, "h": 250 }
+    },
+    "graphics/entity/tree/dead-tree-desert/hr-dead-tree-desert-03.png": {
+      "frame": { "x": 3941, "y": 1467, "w": 399, "h": 249 },
+      "sourceSize": { "w": 399, "h": 249 }
+    },
+    "graphics/entity/tree/dead-tree-desert/hr-dead-tree-desert-09.png": {
+      "frame": { "x": 3678, "y": 2067, "w": 399, "h": 249 },
+      "sourceSize": { "w": 399, "h": 249 }
+    },
+    "graphics/entity/tree/dead-tree-desert/hr-dead-tree-desert-01.png": {
+      "frame": { "x": 2098, "y": 1341, "w": 399, "h": 249 },
+      "sourceSize": { "w": 399, "h": 249 }
+    },
+    "graphics/entity/tree/dead-tree-desert/hr-dead-tree-desert-07.png": {
+      "frame": { "x": 1998, "y": 1627, "w": 398, "h": 249 },
+      "sourceSize": { "w": 398, "h": 249 }
+    },
+    "graphics/entity/tree/dead-tree-desert/hr-dead-tree-desert-06.png": {
+      "frame": { "x": 1773, "y": 1908, "w": 398, "h": 249 },
+      "sourceSize": { "w": 398, "h": 249 }
+    },
+    "graphics/entity/tree/dead-tree-desert/hr-dead-tree-desert-04.png": {
+      "frame": { "x": 1783, "y": 2208, "w": 398, "h": 249 },
+      "sourceSize": { "w": 398, "h": 249 }
+    },
+    "graphics/entity/tree/dead-tree-desert/hr-dead-tree-desert-08.png": {
+      "frame": { "x": 361, "y": 2499, "w": 398, "h": 249 },
+      "sourceSize": { "w": 398, "h": 249 }
+    },
+    "graphics/entity/tree/dead-dry-hairy-tree/hr-dead-dry-hairy-tree-07.png": {
+      "frame": { "x": 761, "y": 2499, "w": 385, "h": 224 },
+      "sourceSize": { "w": 385, "h": 224 }
+    },
+    "graphics/entity/tree/dead-dry-hairy-tree/hr-dead-dry-hairy-tree-09.png": {
+      "frame": { "x": 1, "y": 2811, "w": 309, "h": 274 },
+      "sourceSize": { "w": 309, "h": 274 }
+    },
+    "graphics/entity/tree/dead-dry-hairy-tree/hr-dead-dry-hairy-tree-02.png": {
+      "frame": { "x": 312, "y": 2811, "w": 324, "h": 252 },
+      "sourceSize": { "w": 324, "h": 252 }
+    },
+    "graphics/entity/tree/08/hr-tree-08-a-leaves.png": {
+      "frame": { "x": 3008, "y": 485, "w": 564, "h": 141 },
+      "sourceSize": { "w": 564, "h": 141 }
+    },
+    "graphics/entity/tree/dead-dry-hairy-tree/hr-dead-dry-hairy-tree-11.png": {
+      "frame": { "x": 2173, "y": 1908, "w": 335, "h": 238 },
+      "sourceSize": { "w": 335, "h": 238 }
+    },
+    "graphics/entity/tree/dead-dry-hairy-tree/hr-dead-dry-hairy-tree-10.png": {
+      "frame": { "x": 2183, "y": 2208, "w": 317, "h": 246 },
+      "sourceSize": { "w": 317, "h": 246 }
+    },
+    "graphics/entity/tree/06/hr-tree-06-a-leaves.png": {
+      "frame": { "x": 1148, "y": 2499, "w": 399, "h": 195 },
+      "sourceSize": { "w": 399, "h": 195 }
+    },
+    "graphics/entity/tree/dead-dry-hairy-tree/hr-dead-dry-hairy-tree-00.png": {
+      "frame": { "x": 1549, "y": 2499, "w": 388, "h": 189 },
+      "sourceSize": { "w": 388, "h": 189 }
+    },
+    "graphics/entity/tree/dead-dry-hairy-tree/hr-dead-dry-hairy-tree-08.png": {
+      "frame": { "x": 3994, "y": 998, "w": 341, "h": 166 },
+      "sourceSize": { "w": 341, "h": 166 }
+    },
+    "graphics/entity/tree/07/hr-tree-07-a-leaves.png": {
+      "frame": { "x": 1939, "y": 2499, "w": 303, "h": 164 },
+      "sourceSize": { "w": 303, "h": 164 }
+    },
+    "graphics/entity/tree/dead-grey-trunk/hr-dead-grey-trunk-04.png": {
+      "frame": { "x": 4081, "y": 639, "w": 257, "h": 185 },
+      "sourceSize": { "w": 257, "h": 185 }
+    },
+    "graphics/entity/tree/dead-grey-trunk/hr-dead-grey-trunk-02.png": {
+      "frame": { "x": 4079, "y": 2067, "w": 221, "h": 179 },
+      "sourceSize": { "w": 221, "h": 179 }
+    },
+    "graphics/entity/tree/dead-grey-trunk/hr-dead-grey-trunk-00.png": {
+      "frame": { "x": 2243, "y": 685, "w": 217, "h": 178 },
+      "sourceSize": { "w": 217, "h": 178 }
+    },
+    "graphics/entity/tree/dead-grey-trunk/hr-dead-grey-trunk-01.png": {
+      "frame": { "x": 638, "y": 2811, "w": 205, "h": 185 },
+      "sourceSize": { "w": 205, "h": 185 }
+    },
+    "graphics/entity/tree/dead-grey-trunk/hr-dead-grey-trunk-05.png": {
+      "frame": { "x": 845, "y": 2811, "w": 226, "h": 166 },
+      "sourceSize": { "w": 226, "h": 166 }
+    },
+    "graphics/entity/tree/dead-grey-trunk/hr-dead-grey-trunk-08.png": {
+      "frame": { "x": 1, "y": 3087, "w": 207, "h": 176 },
+      "sourceSize": { "w": 207, "h": 176 }
+    },
+    "graphics/entity/tree/dead-grey-trunk/hr-dead-grey-trunk-07.png": {
+      "frame": { "x": 1073, "y": 2811, "w": 215, "h": 165 },
+      "sourceSize": { "w": 215, "h": 165 }
+    },
+    "graphics/entity/tree/dead-grey-trunk/hr-dead-grey-trunk-03.png": {
+      "frame": { "x": 210, "y": 3087, "w": 210, "h": 167 },
+      "sourceSize": { "w": 210, "h": 167 }
+    },
+    "graphics/entity/tree/dead-grey-trunk/hr-dead-grey-trunk-09.png": {
+      "frame": { "x": 3574, "y": 485, "w": 231, "h": 120 },
+      "sourceSize": { "w": 231, "h": 120 }
+    },
+    "graphics/entity/tree/dead-grey-trunk/hr-dead-grey-trunk-06.png": {
+      "frame": { "x": 3807, "y": 485, "w": 226, "h": 117 },
+      "sourceSize": { "w": 226, "h": 117 }
+    },
+    "graphics/entity/tree/dry-tree/hr-dry-tree-00.png": {
+      "frame": { "x": 2243, "y": 865, "w": 184, "h": 122 },
+      "sourceSize": { "w": 184, "h": 122 }
+    },
+    "graphics/entity/tree/dry-tree/hr-dry-tree-06.png": {
+      "frame": { "x": 2398, "y": 1627, "w": 141, "h": 135 },
+      "sourceSize": { "w": 141, "h": 135 }
+    },
+    "graphics/entity/tree/dry-tree/hr-dry-tree-07.png": {
+      "frame": { "x": 4035, "y": 485, "w": 166, "h": 107 },
+      "sourceSize": { "w": 166, "h": 107 }
+    },
+    "graphics/entity/tree/dry-tree/hr-dry-tree-01.png": {
+      "frame": { "x": 2244, "y": 2499, "w": 142, "h": 122 },
+      "sourceSize": { "w": 142, "h": 122 }
+    },
+    "graphics/entity/tree/dry-tree/hr-dry-tree-05.png": {
+      "frame": { "x": 2388, "y": 2499, "w": 146, "h": 116 },
+      "sourceSize": { "w": 146, "h": 116 }
+    },
+    "graphics/entity/tree/dry-tree/hr-dry-tree-04.png": {
+      "frame": { "x": 2547, "y": 2385, "w": 149, "h": 109 },
+      "sourceSize": { "w": 149, "h": 109 }
+    },
+    "graphics/entity/tree/dry-tree/hr-dry-tree-02.png": {
+      "frame": { "x": 2536, "y": 2499, "w": 140, "h": 115 },
+      "sourceSize": { "w": 140, "h": 115 }
+    },
+    "graphics/entity/tree/dry-tree/hr-dry-tree-03.png": {
+      "frame": { "x": 4203, "y": 485, "w": 151, "h": 101 },
+      "sourceSize": { "w": 151, "h": 101 }
+    },
+    "graphics/entity/tree/dry-tree/hr-dry-tree-08.png": {
+      "frame": { "x": 2698, "y": 2385, "w": 138, "h": 106 },
+      "sourceSize": { "w": 138, "h": 106 }
+    }
+  },
+  "meta": { "image": "./HRTreesAndRocksSpritesheet.png" }
+}

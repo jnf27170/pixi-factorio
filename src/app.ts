@@ -5,18 +5,23 @@
 //import './style.styl'
 
 import * as PIXI from "pixi.js"
+import Viewport from "pixi-viewport"
 
 //import './style.css'
 //const s = require('./style.css')
-/// <reference path='./index.d.ts' />
-import BunnyPNG from './bunny.png'
-import catPNG from './cat.png'
+// /// <reference path='./index.d.ts' />
+//import BunnyPNG from './bunny.png'
+//import catPNG from './cat.png'
+//import HRentitySpritesheetJSON from './img/HRentitySpritesheet.json'
+//import HRentitySpritesheetPNG from './img/HRentitySpritesheetCompressed.png'
+
+
+
 //import Bunny2PNG from './bunny2.png'
 
 /*
 import { Book } from './factorio-data/book'
 import bpString from './factorio-data/bpString'
-
 import G from './common/globals'
 import { InventoryContainer } from './panels/inventory'
 import { TilePaintContainer } from './containers/paintTile'
@@ -36,7 +41,6 @@ import Entity from './factorio-data/entity'
 import Dialog from './controls/dialog'
 import * as History from './factorio-data/history'
 
-
 PIXI.settings.MIPMAP_TEXTURES = PIXI.MIPMAP_MODES.ON
 PIXI.settings.ROUND_PIXELS = true
 PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.LINEAR
@@ -46,103 +50,119 @@ PIXI.settings.RENDER_OPTIONS.resolution = window.devicePixelRatio
 PIXI.GRAPHICS_CURVES.adaptive = true
 */
 
-
-
-const html_div_message: HTMLElement | null = document.getElementById('message');
-const html_canvas_editor: HTMLElement | null = document.getElementById('editor');
-if (html_div_message == null) {throw new Error("div message missing");}
-if (html_canvas_editor == null) {throw new Error("canvas editor missing");}
-
-if (PIXI.utils.isMobile.any) {
-    const text = 'This application is not compatible with mobile devices.'
-    html_div_message.innerHTML = text
+// @ts-ignore
+const html_div_message: HTMLElement = document.getElementById('message');
+// @ts-ignore
+const html_canvas_editor: HTMLElement = document.getElementById('editor');
+// @ts-ignore
+html_div_message.innerText += "isMobile="+JSON.stringify(PIXI.utils.isMobile.any)
+// @ts-ignore
+if (PIXI.utils.isMobile.any!) {
+    alert('This application is not compatible with mobile devices.')
+    //prompt/alert/confirm
     //throw new Error(text)
 }
-html_div_message.innerHTML += "isMobile="+JSON.stringify(PIXI.utils.isMobile.any)
 
 const app = new PIXI.Application({
-    width:800, height:600,
-    view: html_canvas_editor as HTMLCanvasElement,
-    backgroundColor : 0x1099bb,
-    forceCanvas: true
+    width:800, height:600, backgroundColor : 0x1099bb,
+    view: html_canvas_editor as HTMLCanvasElement
 });
 console.log("Start at "+new Date().toLocaleTimeString("fr-FR"));
-html_div_message.innerHTML += " test"
 
 if (app.renderer.type == PIXI.RENDERER_TYPE.WEBGL) {
   console.log("Using WebGL "+JSON.stringify(app.renderer.screen));
-  html_div_message.innerHTML += " Using WebGL "
+  html_div_message.innerText += " Using WebGL "
 } else {
   console.log("Using Canvas");
-  html_div_message.innerHTML += " Using Canvas "
+  html_div_message.innerText += " Using Canvas "
 }
 
-// create a new Sprite from an image path
-/*
-import fs from "fs"
-fs.readFile('./img/bunny.png', function (err, data) {
-    if (err) {
-        return console.error(err);
-    }
-    console.log("Asynchronous read: " + data.toString());
-});
-*/
 
-
-//const fs = require("fs"); //Load the filesystem module
-//const stats = fs.statSync("./img/bunny.png")
-//const fileSizeInBytes = stats.size
-//console.log(fileSizeInBytes)
 
 let loader = PIXI.Loader.shared
-let sprites:any = {};
-loader.add('cat', catPNG)
-//loader.add('iconSpritesheetJSON', './img/iconSpritesheet.json')
-//loader.add('scoreFont', 'assets/score.fnt');
-//loader.add("bunny2.png")
-loader.load(() => {
-    sprites.Scat = new PIXI.Sprite(loader.resources.cat.texture);
-    //sprites.SiconSpritesheetJSON = PIXI.TilingSprite.from(resources.iconSpritesheet.texture);
-    //sprites.scoreFont = new PIXI.TilingSprite(resources.scoreFont.texture);
-})
-loader.on("error",()=> {// called once per errored file
-    html_div_message.innerHTML += " ERROR "
-})
-loader.on("load",()=> {// called once per loaded file
-    html_div_message.innerHTML += loader.progress+" "
-})
-loader.on("complete",()=> {// called once when the queued resources all load
-    html_div_message.innerHTML += " FIN"
-    app.stage.addChild(sprites.Scat)
+let viewport:Viewport
+let entitySpritesheet:PIXI.Spritesheet
+
+loader.add('catPNG', require('./cat.png'), ()=> {
+    // The loader (modified by PIXI) will not only download the image but also store it into a texture under loader.resources.xxxx.texture
+    // The following lines are called once the download+texture are done
+    //html_div_message.innerText += "\nFile catPNG loaded="+loader.resources.catPNG.url
 })
 
-/*
-function setup() {
-    let sprite2 = new PIXI.Sprite(PIXI.loader.resources["bunny2.png"].texture);
-    console.log("bunny2_sprite_bounds:"+JSON.stringify(sprite2.getBounds()))
-    app.stage.addChild(sprite2);
-}
-*/
+loader.add('atlasPNG', require('./img/HRentitySpritesheetCompressed.png'), ()=> {
+    //it's impossible to put the new spritesheet under loader.resources.xxxx without using the spritesheet loader by PIXI so we need to store the spritesheet elsewhere.
+    // Nota : Don't add the JSON into the add function because PIXI has a modified version of the original loader and will try to parse automatically the JSON with the metadata image and this is not working with Typescript
+    entitySpritesheet = new PIXI.Spritesheet(loader.resources.atlasPNG.texture.baseTexture, require('./img/HRentitySpritesheet.json'))
+    entitySpritesheet.parse((textures) => {})
+})
 
-var texture = PIXI.Texture.from(BunnyPNG)
-//var texture = PIXI.Texture.from('./bunny.png')
-//let texture = PIXI.utils.TextureCache[BunnyPNG];
-var bunny:PIXI.Sprite = PIXI.Sprite.from(texture)
+loader.on("start", ()=> {// called once when the queued resources start to load
+    html_div_message.innerText += "\nLoading started !"
+})
 
-// center the sprite's anchor point
-bunny.anchor.set(0.5);
+loader.on("load", ()=> {// called once per loaded file
+    html_div_message.innerText += loader.progress+"%"
+})
 
-// move the sprite to the center of the screen
-bunny.x = app.screen.width / 2;
-bunny.y = app.screen.height / 2;
-bunny.interactive = true
-bunny.buttonMode = true
-console.log("bunny_sprite_bounds:"+JSON.stringify(bunny.getBounds())+" bunny_texture_heigth:"+JSON.stringify(texture.height))
-app.stage.addChild(bunny);
-bunny.on("click",toto)
-function toto() {
-    html_div_message.innerHTML += "clic ! "
-}
+loader.on("complete", ()=> {// called once when the queued resources all load
+    html_div_message.innerText += "Loading finished !"
+    
+    var viewport = new Viewport({
+        screenWidth: app.screen.width,
+        screenHeight: app.screen.height,
+        worldWidth: 1000,
+        worldHeight: 1000,
+    
+        interaction: app.renderer.plugins.interaction // the interaction module is important for wheel() to work properly when renderer.view is placed or scaled
+    });
+    
+    // add the viewport to the stage
+    app.stage.addChild(viewport)
+    app.stage.addChild(PIXI.Sprite.from(loader.resources.catPNG.texture))
+    app.stage.addChild(new PIXI.Sprite(entitySpritesheet.textures["graphics/entity/assembling-machine-1/hr-assembling-machine-1.png"]))
+
+    
+    // activate plugins
+    viewport
+        .drag()
+        .pinch()
+        .wheel()
+    //    .decelerate();
+    viewport.clamp({left:-200,right:viewport.worldWidth+200,top:-200,bottom:viewport.worldHeight+200})
+    viewport.clampZoom({minWidth:200, minHeight:200, maxWidth:1.5*viewport.worldWidth, maxHeight: 1.5*viewport.worldHeight })
+
+    // add a red box inside viewport
+    var sprite = new PIXI.Sprite(PIXI.Texture.WHITE)
+    viewport.addChild(sprite);
+    sprite.tint = 0xff0000;
+    sprite.width = sprite.height = 100
+    sprite.position.set(100, 100);
+
+    // add a rect to view the bounds of viewport
+    var recta_bounds = new PIXI.Graphics()
+    //recta_bounds.beginFill(0xFFFF00)
+    recta_bounds.lineStyle(5,0xFF0000)
+    recta_bounds.drawRect(0,0,viewport.worldWidth,viewport.worldHeight)
+    viewport.addChild(recta_bounds)
+
+
+    var texture = PIXI.Texture.from(require('./bunny.png'))
+    var bunny:PIXI.Sprite = PIXI.Sprite.from(texture)
+
+    // center the sprite's anchor point
+    bunny.anchor.set(0.5);
+
+    // move the sprite to the center of the screen
+    bunny.x = app.screen.width / 2;
+    bunny.y = app.screen.height / 2;
+    bunny.interactive = true
+    bunny.buttonMode = true
+    console.log("bunny_sprite_bounds:"+JSON.stringify(bunny.getBounds())+" bunny_texture_heigth:"+JSON.stringify(texture.height))
+    app.stage.addChild(bunny);
+    bunny.on("click", ()=>{
+    html_div_message.innerText += "\nclic ! "
+})
+
 
 var recta = new PIXI.Graphics()
 recta.beginFill(0xFFFF00)
@@ -160,29 +180,13 @@ app.ticker.add(function(delta) {
   bunny.rotation += 0.1 * delta;
 });
 
-/*
-PIXI.Loader.shared.add('bunny', 'bunny2.png').load((loader, resources) => {
-    // This creates a texture from a 'bunny.png' image
-    const bunnyS = new PIXI.Sprite(resources.bunny.texture);
+})
 
-    // Setup the position of the bunny
-    bunnyS.x = app.renderer.width / 2;
-    bunnyS.y = app.renderer.height / 2;
+loader.load()
 
-    // Rotate around the center
-    bunnyS.anchor.x = 0.5;
-    bunnyS.anchor.y = 0.5;
 
-    // Add the bunny to the scene we are building
-    app.stage.addChild(bunnyS);
 
-    // Listen for frame updates
-    app.ticker.add(() => {
-         // each frame we spin the bunny around a bit
-         bunnyS.rotation += 0.01;
-    });
-});
-*/
+
 
 // https://www.w3schools.com/jsref/prop_style_display.asp
 //html_div_message.style.display = "none";
