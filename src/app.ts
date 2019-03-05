@@ -58,7 +58,7 @@ const html_canvas_editor: HTMLElement = document.getElementById('editor');
 html_div_message.innerText += "isMobile="+JSON.stringify(PIXI.utils.isMobile.any)
 // @ts-ignore
 if (PIXI.utils.isMobile.any!) {
-    alert('This application is not compatible with mobile devices.')
+    //alert('This application is not compatible with mobile devices.')
     //prompt/alert/confirm
     //throw new Error(text)
 }
@@ -128,8 +128,8 @@ loader.on("complete", ()=> {// called once when the queued resources all load
         .pinch()
         .wheel()
     //    .decelerate();
-    viewport.clamp({left:-200,right:viewport.worldWidth+200,top:-200,bottom:viewport.worldHeight+200})
-    viewport.clampZoom({minWidth:200, minHeight:200, maxWidth:1.5*viewport.worldWidth, maxHeight: 1.5*viewport.worldHeight })
+    //viewport.clamp({left:-200,right:viewport.worldWidth+200,top:-200,bottom:viewport.worldHeight+200})
+    //viewport.clampZoom({minWidth:200, minHeight:200, maxWidth:1.5*viewport.worldWidth, maxHeight: 1.5*viewport.worldHeight })
 
     // add a red box inside viewport
     var sprite = new PIXI.Sprite(PIXI.Texture.WHITE)
@@ -144,14 +144,15 @@ loader.on("complete", ()=> {// called once when the queued resources all load
     recta_bounds.lineStyle(5,0xFF0000)
     recta_bounds.drawRect(0,0,viewport.worldWidth,viewport.worldHeight)
     viewport.addChild(recta_bounds)
+    html_div_message.innerText += "\nwindow.inner="+window.innerWidth+"x"+window.innerHeight
+    +" window.screen.="+window.screen.width+"x"+window.screen.height
+    +" app.screen.="+app.screen.width+"x"+app.screen.height
 
 
     var texture = PIXI.Texture.from(require('./bunny.png'))
     var bunny:PIXI.Sprite = PIXI.Sprite.from(texture)
-
     // center the sprite's anchor point
     bunny.anchor.set(0.5);
-
     // move the sprite to the center of the screen
     bunny.x = app.screen.width / 2;
     bunny.y = app.screen.height / 2;
@@ -160,43 +161,38 @@ loader.on("complete", ()=> {// called once when the queued resources all load
     console.log("bunny_sprite_bounds:"+JSON.stringify(bunny.getBounds())+" bunny_texture_heigth:"+JSON.stringify(texture.height))
     app.stage.addChild(bunny);
     bunny.on("click", ()=>{
-    html_div_message.innerText += "\nclic ! "
-})
+        html_div_message.innerText += "\nclic ! "
+    })
 
+    var recta = new PIXI.Graphics()
+    recta.beginFill(0xFFFF00)
+    recta.lineStyle(5,0xFF0000)
+    recta.drawRect(0,0,100,100)
+    recta.y = 300
+    app.stage.addChild(recta)
+    console.log("recta_graphics_bounds:"+JSON.stringify(recta.getBounds())+" "+JSON.stringify(app.stage.getBounds()))
 
-var recta = new PIXI.Graphics()
-recta.beginFill(0xFFFF00)
-recta.lineStyle(5,0xFF0000)
-recta.drawRect(0,0,100,100)
-recta.y = 300
-app.stage.addChild(recta)
-console.log("recta_graphics_bounds:"+JSON.stringify(recta.getBounds())+" "+JSON.stringify(app.stage.getBounds()))
-
-// Listen for animate update
-app.ticker.add(function(delta) {
-  // just for fun, let's rotate mr rabbit a little
-  // delta is 1 if running at 100% performance
-  // creates frame-independent transformation
-  bunny.rotation += 0.1 * delta;
-});
-
+    // Listen for animate update
+    app.ticker.add(function(delta) {
+    // just for fun, let's rotate mr rabbit a little
+    // delta is 1 if running at 100% performance
+    // creates frame-independent transformation
+    bunny.rotation += 0.1 * delta;
+    });
 })
 
 loader.load()
-
-
-
 
 
 // https://www.w3schools.com/jsref/prop_style_display.asp
 //html_div_message.style.display = "none";
 
 // If the tab is not active then stop the app
-document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'visible') app.start()
-    else app.stop()
+//document.addEventListener('visibilitychange', () => {
+//    if (document.visibilityState === 'visible') app.start()
+//    else app.stop()
     // If the tab is not active then stop the app
-})
+//})
 
 
 
