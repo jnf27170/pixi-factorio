@@ -1,0 +1,8420 @@
+{
+	"textures": [
+		{
+			"image": "atlas-entity-f0.17-v0.1-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 511,
+				"h": 1516
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transport-belt-12/transport-belt-12-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 38,
+						"y": 0,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 76,
+						"y": 0,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 114,
+						"y": 0,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 152,
+						"y": 0,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 190,
+						"y": 0,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 228,
+						"y": 0,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 266,
+						"y": 0,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 304,
+						"y": 0,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 342,
+						"y": 0,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 380,
+						"y": 0,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 418,
+						"y": 0,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 456,
+						"y": 0,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 0,
+						"y": 14,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 38,
+						"y": 14,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 76,
+						"y": 14,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 115,
+						"y": 14,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 154,
+						"y": 14,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 193,
+						"y": 14,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 232,
+						"y": 14,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 271,
+						"y": 14,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 310,
+						"y": 14,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 349,
+						"y": 14,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 388,
+						"y": 14,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 427,
+						"y": 14,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 466,
+						"y": 14,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 0,
+						"y": 28,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 39,
+						"y": 28,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 78,
+						"y": 28,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 117,
+						"y": 28,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 156,
+						"y": 28,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 195,
+						"y": 28,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 233,
+						"y": 28,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 271,
+						"y": 28,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 309,
+						"y": 28,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 348,
+						"y": 28,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 387,
+						"y": 28,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 426,
+						"y": 28,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 465,
+						"y": 28,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 0,
+						"y": 42,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 38,
+						"y": 42,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-17/transport-belt-17-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 76,
+						"y": 42,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 115,
+						"y": 42,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 153,
+						"y": 42,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 192,
+						"y": 42,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 231,
+						"y": 42,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 269,
+						"y": 42,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 308,
+						"y": 42,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 346,
+						"y": 42,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 385,
+						"y": 42,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 423,
+						"y": 42,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 461,
+						"y": 42,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 0,
+						"y": 56,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 38,
+						"y": 56,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 76,
+						"y": 56,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-12/transport-belt-12-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 114,
+						"y": 56,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 152,
+						"y": 56,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 191,
+						"y": 56,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 230,
+						"y": 56,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 269,
+						"y": 56,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-13/transport-belt-13-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 14
+					},
+					"frame": {
+						"x": 308,
+						"y": 56,
+						"w": 38,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 346,
+						"y": 56,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 385,
+						"y": 56,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "transport-belt-16/transport-belt-16-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 35,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 424,
+						"y": 56,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "assembling-machine-1-pipe-N.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 35,
+						"h": 18
+					},
+					"frame": {
+						"x": 463,
+						"y": 56,
+						"w": 35,
+						"h": 18
+					}
+				},
+				{
+					"filename": "assembling-machine-2-pipe-N.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 35,
+						"h": 18
+					},
+					"frame": {
+						"x": 0,
+						"y": 74,
+						"w": 35,
+						"h": 18
+					}
+				},
+				{
+					"filename": "assembling-machine-3-pipe-N.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 18
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 35,
+						"h": 18
+					},
+					"frame": {
+						"x": 35,
+						"y": 74,
+						"w": 35,
+						"h": 18
+					}
+				},
+				{
+					"filename": "pipe-horizontal-window-background.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 21,
+						"w": 22,
+						"h": 20
+					},
+					"frame": {
+						"x": 70,
+						"y": 74,
+						"w": 22,
+						"h": 20
+					}
+				},
+				{
+					"filename": "pipe-vertical-window-background.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 15,
+						"w": 21,
+						"h": 23
+					},
+					"frame": {
+						"x": 92,
+						"y": 74,
+						"w": 21,
+						"h": 23
+					}
+				},
+				{
+					"filename": "pipe-to-ground-down.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 25,
+						"w": 37,
+						"h": 24
+					},
+					"frame": {
+						"x": 113,
+						"y": 74,
+						"w": 37,
+						"h": 24
+					}
+				},
+				{
+					"filename": "assembling-machine-2-pipe-S.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 31
+					},
+					"frame": {
+						"x": 150,
+						"y": 74,
+						"w": 44,
+						"h": 31
+					}
+				},
+				{
+					"filename": "assembling-machine-3-pipe-S.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 31
+					},
+					"frame": {
+						"x": 194,
+						"y": 74,
+						"w": 44,
+						"h": 31
+					}
+				},
+				{
+					"filename": "assembling-machine-1-pipe-S.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 31
+					},
+					"frame": {
+						"x": 238,
+						"y": 74,
+						"w": 44,
+						"h": 31
+					}
+				},
+				{
+					"filename": "pipe-corner-down-right.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 17,
+						"w": 31,
+						"h": 32
+					},
+					"frame": {
+						"x": 282,
+						"y": 74,
+						"w": 31,
+						"h": 32
+					}
+				},
+				{
+					"filename": "burner-inserter-hand-base.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 8,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 8,
+						"h": 32
+					},
+					"frame": {
+						"x": 313,
+						"y": 74,
+						"w": 8,
+						"h": 32
+					}
+				},
+				{
+					"filename": "pipe-corner-down-left.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 38,
+						"h": 32
+					},
+					"frame": {
+						"x": 321,
+						"y": 74,
+						"w": 38,
+						"h": 32
+					}
+				},
+				{
+					"filename": "pipe-t-down.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 33
+					},
+					"frame": {
+						"x": 359,
+						"y": 74,
+						"w": 34,
+						"h": 33
+					}
+				},
+				{
+					"filename": "pipe-straight-vertical.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 15,
+						"w": 40,
+						"h": 34
+					},
+					"frame": {
+						"x": 393,
+						"y": 74,
+						"w": 40,
+						"h": 34
+					}
+				},
+				{
+					"filename": "pipe-corner-up-right.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 15,
+						"w": 35,
+						"h": 34
+					},
+					"frame": {
+						"x": 433,
+						"y": 74,
+						"w": 35,
+						"h": 34
+					}
+				},
+				{
+					"filename": "pipe-cross.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 468,
+						"y": 74,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 0,
+						"y": 108,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "pipe-ending-down.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 15,
+						"w": 39,
+						"h": 34
+					},
+					"frame": {
+						"x": 38,
+						"y": 108,
+						"w": 39,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 77,
+						"y": 108,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "pipe-to-ground-up.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 15,
+						"w": 42,
+						"h": 34
+					},
+					"frame": {
+						"x": 115,
+						"y": 108,
+						"w": 42,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 157,
+						"y": 108,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 195,
+						"y": 108,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "pipe-straight-horizontal-single.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 25,
+						"w": 61,
+						"h": 34
+					},
+					"frame": {
+						"x": 233,
+						"y": 108,
+						"w": 61,
+						"h": 34
+					}
+				},
+				{
+					"filename": "pipe-straight-vertical-window.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 15,
+						"w": 41,
+						"h": 34
+					},
+					"frame": {
+						"x": 294,
+						"y": 108,
+						"w": 41,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 335,
+						"y": 108,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 373,
+						"y": 108,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 411,
+						"y": 108,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 449,
+						"y": 108,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 0,
+						"y": 142,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 38,
+						"y": 142,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 76,
+						"y": 142,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 114,
+						"y": 142,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 152,
+						"y": 142,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 190,
+						"y": 142,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "pipe-t-right.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 228,
+						"y": 142,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 266,
+						"y": 142,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "transport-belt-3/transport-belt-3-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 34
+					},
+					"frame": {
+						"x": 304,
+						"y": 142,
+						"w": 38,
+						"h": 34
+					}
+				},
+				{
+					"filename": "pipe-straight-horizontal.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 35
+					},
+					"frame": {
+						"x": 342,
+						"y": 142,
+						"w": 34,
+						"h": 35
+					}
+				},
+				{
+					"filename": "pipe-t-left.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 15,
+						"w": 42,
+						"h": 35
+					},
+					"frame": {
+						"x": 376,
+						"y": 142,
+						"w": 42,
+						"h": 35
+					}
+				},
+				{
+					"filename": "pipe-straight-horizontal-window.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 35
+					},
+					"frame": {
+						"x": 418,
+						"y": 142,
+						"w": 34,
+						"h": 35
+					}
+				},
+				{
+					"filename": "pipe-ending-right.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 15,
+						"w": 34,
+						"h": 36
+					},
+					"frame": {
+						"x": 452,
+						"y": 142,
+						"w": 34,
+						"h": 36
+					}
+				},
+				{
+					"filename": "pipe-to-ground-left.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 36
+					},
+					"frame": {
+						"x": 0,
+						"y": 178,
+						"w": 34,
+						"h": 36
+					}
+				},
+				{
+					"filename": "pipe-t-up.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 15,
+						"w": 38,
+						"h": 36
+					},
+					"frame": {
+						"x": 34,
+						"y": 178,
+						"w": 38,
+						"h": 36
+					}
+				},
+				{
+					"filename": "wooden-chest.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 36
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 36
+					},
+					"frame": {
+						"x": 72,
+						"y": 178,
+						"w": 32,
+						"h": 36
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 104,
+						"y": 178,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 141,
+						"y": 178,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 178,
+						"y": 178,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 215,
+						"y": 178,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 252,
+						"y": 178,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 289,
+						"y": 178,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 326,
+						"y": 178,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 363,
+						"y": 178,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 400,
+						"y": 178,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 437,
+						"y": 178,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 474,
+						"y": 178,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 0,
+						"y": 215,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 37,
+						"y": 215,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 74,
+						"y": 215,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 111,
+						"y": 215,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 148,
+						"y": 215,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 185,
+						"y": 215,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 222,
+						"y": 215,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 259,
+						"y": 215,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 296,
+						"y": 215,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 333,
+						"y": 215,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 370,
+						"y": 215,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 407,
+						"y": 215,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 444,
+						"y": 215,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 0,
+						"y": 252,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 37,
+						"y": 252,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 74,
+						"y": 252,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 111,
+						"y": 252,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 148,
+						"y": 252,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-10/transport-belt-10-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 185,
+						"y": 252,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 222,
+						"y": 252,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 259,
+						"y": 252,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 296,
+						"y": 252,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 333,
+						"y": 252,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-11/transport-belt-11-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 370,
+						"y": 252,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 407,
+						"y": 252,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "assembling-machine-3-pipe-W.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 37
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 37
+					},
+					"frame": {
+						"x": 444,
+						"y": 252,
+						"w": 19,
+						"h": 37
+					}
+				},
+				{
+					"filename": "pipe-ending-up.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 15,
+						"w": 42,
+						"h": 37
+					},
+					"frame": {
+						"x": 463,
+						"y": 252,
+						"w": 42,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 0,
+						"y": 289,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "burner-inserter-platform.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 184,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 7,
+						"w": 178,
+						"h": 37
+					},
+					"frame": {
+						"x": 37,
+						"y": 289,
+						"w": 178,
+						"h": 37
+					}
+				},
+				{
+					"filename": "assembling-machine-2-pipe-W.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 37
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 37
+					},
+					"frame": {
+						"x": 215,
+						"y": 289,
+						"w": 19,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 234,
+						"y": 289,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "assembling-machine-1-pipe-W.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 37
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 37
+					},
+					"frame": {
+						"x": 271,
+						"y": 289,
+						"w": 19,
+						"h": 37
+					}
+				},
+				{
+					"filename": "underground-belt-structure-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 35,
+						"w": 60,
+						"h": 37
+					},
+					"frame": {
+						"x": 290,
+						"y": 289,
+						"w": 60,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 350,
+						"y": 289,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 387,
+						"y": 289,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 424,
+						"y": 289,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 461,
+						"y": 289,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 0,
+						"y": 326,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 37,
+						"y": 326,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 74,
+						"y": 326,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 111,
+						"y": 326,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 148,
+						"y": 326,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 185,
+						"y": 326,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 222,
+						"y": 326,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 259,
+						"y": 326,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 296,
+						"y": 326,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 333,
+						"y": 326,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 370,
+						"y": 326,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 407,
+						"y": 326,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 444,
+						"y": 326,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 0,
+						"y": 363,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 37,
+						"y": 363,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-8/transport-belt-8-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 74,
+						"y": 363,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 111,
+						"y": 363,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 148,
+						"y": 363,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 185,
+						"y": 363,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "underground-belt-structure-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 35,
+						"w": 60,
+						"h": 37
+					},
+					"frame": {
+						"x": 222,
+						"y": 363,
+						"w": 60,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 282,
+						"y": 363,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 319,
+						"y": 363,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "transport-belt-9/transport-belt-9-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 37,
+						"h": 37
+					},
+					"frame": {
+						"x": 356,
+						"y": 363,
+						"w": 37,
+						"h": 37
+					}
+				},
+				{
+					"filename": "iron-chest.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 38
+					},
+					"frame": {
+						"x": 393,
+						"y": 363,
+						"w": 34,
+						"h": 38
+					}
+				},
+				{
+					"filename": "underground-belt-structure-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 31,
+						"w": 67,
+						"h": 38
+					},
+					"frame": {
+						"x": 427,
+						"y": 363,
+						"w": 67,
+						"h": 38
+					}
+				},
+				{
+					"filename": "pipe-corner-up-left.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 14,
+						"w": 43,
+						"h": 38
+					},
+					"frame": {
+						"x": 0,
+						"y": 401,
+						"w": 43,
+						"h": 38
+					}
+				},
+				{
+					"filename": "assembling-machine-1-pipe-E.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 20,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 20,
+						"h": 38
+					},
+					"frame": {
+						"x": 43,
+						"y": 401,
+						"w": 20,
+						"h": 38
+					}
+				},
+				{
+					"filename": "underground-belt-structure-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 31,
+						"w": 67,
+						"h": 38
+					},
+					"frame": {
+						"x": 63,
+						"y": 401,
+						"w": 67,
+						"h": 38
+					}
+				},
+				{
+					"filename": "assembling-machine-3-pipe-E.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 20,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 20,
+						"h": 38
+					},
+					"frame": {
+						"x": 130,
+						"y": 401,
+						"w": 20,
+						"h": 38
+					}
+				},
+				{
+					"filename": "assembling-machine-2-pipe-E.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 20,
+						"h": 38
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 20,
+						"h": 38
+					},
+					"frame": {
+						"x": 150,
+						"y": 401,
+						"w": 20,
+						"h": 38
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 170,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 188,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 206,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 224,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 242,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 260,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 278,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 296,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 314,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 332,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 350,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 368,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 386,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 404,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 422,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 440,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 458,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 476,
+						"y": 401,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 0,
+						"y": 441,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 18,
+						"y": 441,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 36,
+						"y": 441,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 54,
+						"y": 441,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 72,
+						"y": 441,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 90,
+						"y": 441,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "steel-chest.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 40
+					},
+					"frame": {
+						"x": 108,
+						"y": 441,
+						"w": 32,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 140,
+						"y": 441,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 158,
+						"y": 441,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "pipe-ending-left.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 49,
+						"h": 40
+					},
+					"frame": {
+						"x": 176,
+						"y": 441,
+						"w": 49,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 225,
+						"y": 441,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-14/transport-belt-14-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 243,
+						"y": 441,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 261,
+						"y": 441,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 279,
+						"y": 441,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 297,
+						"y": 441,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 315,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 329,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 343,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 357,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 371,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 385,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 399,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 413,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 427,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 441,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 455,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 469,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 483,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 497,
+						"y": 441,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 0,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 14,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-15/transport-belt-15-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 17,
+						"w": 18,
+						"h": 40
+					},
+					"frame": {
+						"x": 28,
+						"y": 481,
+						"w": 18,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 46,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 60,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 74,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 88,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 102,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 116,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 130,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 144,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 158,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 172,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 186,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-19/transport-belt-19-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 200,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 214,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 228,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 242,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "transport-belt-18/transport-belt-18-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 17,
+						"w": 14,
+						"h": 40
+					},
+					"frame": {
+						"x": 256,
+						"y": 481,
+						"w": 14,
+						"h": 40
+					}
+				},
+				{
+					"filename": "burner-inserter-hand-closed.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 18,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 15,
+						"h": 41
+					},
+					"frame": {
+						"x": 270,
+						"y": 481,
+						"w": 15,
+						"h": 41
+					}
+				},
+				{
+					"filename": "burner-inserter-hand-open.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 41
+					},
+					"frame": {
+						"x": 285,
+						"y": 481,
+						"w": 18,
+						"h": 41
+					}
+				},
+				{
+					"filename": "pipe-to-ground-right.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 14,
+						"w": 34,
+						"h": 43
+					},
+					"frame": {
+						"x": 303,
+						"y": 481,
+						"w": 34,
+						"h": 43
+					}
+				},
+				{
+					"filename": "pipe-straight-vertical-single.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 16,
+						"w": 42,
+						"h": 44
+					},
+					"frame": {
+						"x": 337,
+						"y": 481,
+						"w": 42,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 379,
+						"y": 481,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 417,
+						"y": 481,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 455,
+						"y": 481,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 0,
+						"y": 525,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 38,
+						"y": 525,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 76,
+						"y": 525,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 114,
+						"y": 525,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 152,
+						"y": 525,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 190,
+						"y": 525,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 228,
+						"y": 525,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 266,
+						"y": 525,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 304,
+						"y": 525,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 342,
+						"y": 525,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 380,
+						"y": 525,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 418,
+						"y": 525,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 456,
+						"y": 525,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 0,
+						"y": 569,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 38,
+						"y": 569,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 76,
+						"y": 569,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 114,
+						"y": 569,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 152,
+						"y": 569,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 190,
+						"y": 569,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 228,
+						"y": 569,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 266,
+						"y": 569,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 307,
+						"y": 569,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 345,
+						"y": 569,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 383,
+						"y": 569,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-7/transport-belt-7-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 421,
+						"y": 569,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 459,
+						"y": 569,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 0,
+						"y": 613,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 38,
+						"y": 613,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 76,
+						"y": 613,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 117,
+						"y": 613,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 158,
+						"y": 613,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 199,
+						"y": 613,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 240,
+						"y": 613,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 281,
+						"y": 613,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 322,
+						"y": 613,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 363,
+						"y": 613,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 401,
+						"y": 613,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 442,
+						"y": 613,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 0,
+						"y": 657,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 41,
+						"y": 657,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 82,
+						"y": 657,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 40,
+						"h": 44
+					},
+					"frame": {
+						"x": 123,
+						"y": 657,
+						"w": 40,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 163,
+						"y": 657,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 204,
+						"y": 657,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 245,
+						"y": 657,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 286,
+						"y": 657,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 327,
+						"y": 657,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 368,
+						"y": 657,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 409,
+						"y": 657,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 40,
+						"h": 44
+					},
+					"frame": {
+						"x": 450,
+						"y": 657,
+						"w": 40,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 40,
+						"h": 44
+					},
+					"frame": {
+						"x": 0,
+						"y": 701,
+						"w": 40,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 40,
+						"y": 701,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 81,
+						"y": 701,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-4/transport-belt-4-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 122,
+						"y": 701,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 40,
+						"h": 44
+					},
+					"frame": {
+						"x": 163,
+						"y": 701,
+						"w": 40,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 203,
+						"y": 701,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 244,
+						"y": 701,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 285,
+						"y": 701,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 326,
+						"y": 701,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-5/transport-belt-5-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 41,
+						"h": 44
+					},
+					"frame": {
+						"x": 367,
+						"y": 701,
+						"w": 41,
+						"h": 44
+					}
+				},
+				{
+					"filename": "transport-belt-6/transport-belt-6-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 15,
+						"w": 38,
+						"h": 44
+					},
+					"frame": {
+						"x": 408,
+						"y": 701,
+						"w": 38,
+						"h": 44
+					}
+				},
+				{
+					"filename": "underground-belt-structure-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 25,
+						"w": 56,
+						"h": 45
+					},
+					"frame": {
+						"x": 446,
+						"y": 701,
+						"w": 56,
+						"h": 45
+					}
+				},
+				{
+					"filename": "underground-belt-structure-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 25,
+						"w": 56,
+						"h": 45
+					},
+					"frame": {
+						"x": 0,
+						"y": 746,
+						"w": 56,
+						"h": 45
+					}
+				},
+				{
+					"filename": "underground-belt-structure-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 25,
+						"w": 56,
+						"h": 45
+					},
+					"frame": {
+						"x": 56,
+						"y": 746,
+						"w": 56,
+						"h": 45
+					}
+				},
+				{
+					"filename": "underground-belt-structure-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 25,
+						"w": 56,
+						"h": 45
+					},
+					"frame": {
+						"x": 112,
+						"y": 746,
+						"w": 56,
+						"h": 45
+					}
+				},
+				{
+					"filename": "underground-belt-structure-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 25,
+						"w": 48,
+						"h": 46
+					},
+					"frame": {
+						"x": 168,
+						"y": 746,
+						"w": 48,
+						"h": 46
+					}
+				},
+				{
+					"filename": "underground-belt-structure-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 25,
+						"w": 48,
+						"h": 46
+					},
+					"frame": {
+						"x": 216,
+						"y": 746,
+						"w": 48,
+						"h": 46
+					}
+				},
+				{
+					"filename": "underground-belt-structure-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 25,
+						"w": 48,
+						"h": 46
+					},
+					"frame": {
+						"x": 264,
+						"y": 746,
+						"w": 48,
+						"h": 46
+					}
+				},
+				{
+					"filename": "pipe.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 28,
+						"h": 46
+					},
+					"frame": {
+						"x": 312,
+						"y": 746,
+						"w": 28,
+						"h": 46
+					}
+				},
+				{
+					"filename": "underground-belt-structure-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 25,
+						"w": 48,
+						"h": 46
+					},
+					"frame": {
+						"x": 340,
+						"y": 746,
+						"w": 48,
+						"h": 46
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 388,
+						"y": 746,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 422,
+						"y": 746,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 456,
+						"y": 746,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 0,
+						"y": 793,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 34,
+						"y": 793,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 68,
+						"y": 793,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 102,
+						"y": 793,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 136,
+						"y": 793,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 170,
+						"y": 793,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 204,
+						"y": 793,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 238,
+						"y": 793,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 272,
+						"y": 793,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 306,
+						"y": 793,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 340,
+						"y": 793,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 374,
+						"y": 793,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-0/transport-belt-0-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 17,
+						"w": 34,
+						"h": 47
+					},
+					"frame": {
+						"x": 408,
+						"y": 793,
+						"w": 34,
+						"h": 47
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 442,
+						"y": 793,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 0,
+						"y": 842,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 38,
+						"y": 842,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 76,
+						"y": 842,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 114,
+						"y": 842,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 152,
+						"y": 842,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 190,
+						"y": 842,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 228,
+						"y": 842,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 266,
+						"y": 842,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 304,
+						"y": 842,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 342,
+						"y": 842,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 380,
+						"y": 842,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 418,
+						"y": 842,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 456,
+						"y": 842,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 0,
+						"y": 891,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-2/transport-belt-2-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 0,
+						"w": 38,
+						"h": 49
+					},
+					"frame": {
+						"x": 38,
+						"y": 891,
+						"w": 38,
+						"h": 49
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 76,
+						"y": 891,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 110,
+						"y": 891,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 144,
+						"y": 891,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 178,
+						"y": 891,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 212,
+						"y": 891,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 246,
+						"y": 891,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "stone-furnace.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 81,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 81,
+						"h": 64
+					},
+					"frame": {
+						"x": 280,
+						"y": 891,
+						"w": 81,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 361,
+						"y": 891,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 395,
+						"y": 891,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 429,
+						"y": 891,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 463,
+						"y": 891,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 0,
+						"y": 955,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 34,
+						"y": 955,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 68,
+						"y": 955,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 102,
+						"y": 955,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 136,
+						"y": 955,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "transport-belt-1/transport-belt-1-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 64,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 0,
+						"w": 34,
+						"h": 64
+					},
+					"frame": {
+						"x": 170,
+						"y": 955,
+						"w": 34,
+						"h": 64
+					}
+				},
+				{
+					"filename": "burner-mining-drill-E.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 93,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 93,
+						"h": 84
+					},
+					"frame": {
+						"x": 204,
+						"y": 955,
+						"w": 93,
+						"h": 84
+					}
+				},
+				{
+					"filename": "burner-mining-drill-S.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 87,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 87,
+						"h": 85
+					},
+					"frame": {
+						"x": 297,
+						"y": 955,
+						"w": 87,
+						"h": 85
+					}
+				},
+				{
+					"filename": "steel-furnace.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 85,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 85,
+						"h": 87
+					},
+					"frame": {
+						"x": 384,
+						"y": 955,
+						"w": 85,
+						"h": 87
+					}
+				},
+				{
+					"filename": "burner-mining-drill-W.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 91,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 91,
+						"h": 87
+					},
+					"frame": {
+						"x": 0,
+						"y": 1042,
+						"w": 91,
+						"h": 87
+					}
+				},
+				{
+					"filename": "lab.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 98,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 98,
+						"h": 87
+					},
+					"frame": {
+						"x": 91,
+						"y": 1042,
+						"w": 98,
+						"h": 87
+					}
+				},
+				{
+					"filename": "burner-mining-drill-N.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 87,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 87,
+						"h": 95
+					},
+					"frame": {
+						"x": 189,
+						"y": 1042,
+						"w": 87,
+						"h": 95
+					}
+				},
+				{
+					"filename": "small-electric-pole.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 36,
+						"h": 108
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 10,
+						"w": 35,
+						"h": 95
+					},
+					"frame": {
+						"x": 276,
+						"y": 1042,
+						"w": 35,
+						"h": 95
+					}
+				},
+				{
+					"filename": "boiler-S.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 95
+					},
+					"frame": {
+						"x": 311,
+						"y": 1042,
+						"w": 128,
+						"h": 95
+					}
+				},
+				{
+					"filename": "storage-tank-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 110,
+						"h": 108
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 108,
+						"h": 108
+					},
+					"frame": {
+						"x": 0,
+						"y": 1137,
+						"w": 108,
+						"h": 108
+					}
+				},
+				{
+					"filename": "boiler-N.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 131,
+						"h": 108
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 131,
+						"h": 108
+					},
+					"frame": {
+						"x": 108,
+						"y": 1137,
+						"w": 131,
+						"h": 108
+					}
+				},
+				{
+					"filename": "storage-tank-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 110,
+						"h": 108
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 106,
+						"h": 108
+					},
+					"frame": {
+						"x": 239,
+						"y": 1137,
+						"w": 106,
+						"h": 108
+					}
+				},
+				{
+					"filename": "assembling-machine-2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 108,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 108,
+						"h": 110
+					},
+					"frame": {
+						"x": 345,
+						"y": 1137,
+						"w": 108,
+						"h": 110
+					}
+				},
+				{
+					"filename": "chemical-plant-W.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 122,
+						"h": 134
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 12,
+						"w": 122,
+						"h": 114
+					},
+					"frame": {
+						"x": 0,
+						"y": 1247,
+						"w": 122,
+						"h": 114
+					}
+				},
+				{
+					"filename": "assembling-machine-1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 108,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 108,
+						"h": 114
+					},
+					"frame": {
+						"x": 122,
+						"y": 1247,
+						"w": 108,
+						"h": 114
+					}
+				},
+				{
+					"filename": "chemical-plant-E.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 122,
+						"h": 134
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 7,
+						"w": 113,
+						"h": 119
+					},
+					"frame": {
+						"x": 230,
+						"y": 1247,
+						"w": 113,
+						"h": 119
+					}
+				},
+				{
+					"filename": "assembling-machine-3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 108,
+						"h": 119
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 108,
+						"h": 119
+					},
+					"frame": {
+						"x": 343,
+						"y": 1247,
+						"w": 108,
+						"h": 119
+					}
+				},
+				{
+					"filename": "medium-electric-pole.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 40,
+						"h": 124
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 40,
+						"h": 121
+					},
+					"frame": {
+						"x": 451,
+						"y": 1247,
+						"w": 40,
+						"h": 121
+					}
+				},
+				{
+					"filename": "chemical-plant-N.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 122,
+						"h": 134
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 0,
+						"w": 113,
+						"h": 125
+					},
+					"frame": {
+						"x": 0,
+						"y": 1368,
+						"w": 113,
+						"h": 125
+					}
+				},
+				{
+					"filename": "chemical-plant-S.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 122,
+						"h": 134
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 111,
+						"h": 132
+					},
+					"frame": {
+						"x": 113,
+						"y": 1368,
+						"w": 111,
+						"h": 132
+					}
+				},
+				{
+					"filename": "boiler-W.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 132
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 132
+					},
+					"frame": {
+						"x": 224,
+						"y": 1368,
+						"w": 96,
+						"h": 132
+					}
+				},
+				{
+					"filename": "boiler-E.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 105,
+						"h": 147
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 105,
+						"h": 147
+					},
+					"frame": {
+						"x": 320,
+						"y": 1368,
+						"w": 105,
+						"h": 147
+					}
+				},
+				{
+					"filename": "big-electric-pole.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 76,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 66,
+						"h": 148
+					},
+					"frame": {
+						"x": 425,
+						"y": 1368,
+						"w": 66,
+						"h": 148
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:1d4ccfbf34cefc6a9424703eabd0641f:d7525dcc4399516beddcec8bec72c6a1:db3b154fb5d380012a5e734845ffc870$"
+	}
+}
